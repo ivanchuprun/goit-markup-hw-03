@@ -9,10 +9,33 @@ text-decoration: none;
 ul, 
 ol {
 list-style-type: none;
+margin: 0;
+padding: 0;
 }
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: o auto;
+}
+
 button {
 cursor: pointer;
 font-family: "Roboto", sans-serif;
+border-radius: 4px;
+padding: 16px 32px;
+width: 169px;
+height: 56px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #4d5ae5;
 }
 
 .head-logo { 
@@ -109,6 +132,10 @@ background-color: #4d5ae5;
 }
 .features-list {
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 1128px;
+    height: 104px;
 }
 .features-list > li {
     border: 1px solid #ddd;
