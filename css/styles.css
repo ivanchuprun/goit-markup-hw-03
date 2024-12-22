@@ -91,7 +91,6 @@ color: #404bbf;
 }
 
 .address-item {
-    padding: 24px 0;
 }
 
 .address-link {
@@ -116,6 +115,7 @@ color: #404bbf;
 }
 
 .page-title {
+padding: 188px 0;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
@@ -125,22 +125,19 @@ color: #fff;
 }
 
 button {
+    min-width: 169px;
+    height: 56px;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 10px;
+    border: none;
+    display: block;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4d5ae5;
+    background-color: #4d5ae5;
+    border-radius: 4px;
 }
 
 .page-title-button {
+    margin-top: auto;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -200,6 +197,7 @@ button {
     color: #333;
 }
 .team-title {
+    margin-bottom: 8px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -209,9 +207,10 @@ button {
     color: #2e2f42;
 }
 .team-list {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    width: calc((100% - 72px) / 4);
+    display: flex;
+    border-radius: 0px 0px 4px 4px;
+    gap: 24px;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
@@ -281,7 +280,7 @@ button {
     background-color: #2e2f42;
 }
 
-.footer-content {
+.footer .container {
     margin: 144px;
   }
   
