@@ -280,10 +280,15 @@ button {
     background-color: #2e2f42;
 }
 
-.footer-container {
-    max-width: 272px;
-    padding: 0 24;
-}
+.footer-content {
+    max-width: 800px; /* Обмеження ширини для естетики */
+    margin: 0 auto; /* Центрує весь блок */
+  }
+  
+  .footer-content a, 
+  .footer-content p {
+    margin: 10px 0; /* Відступи між заголовком і текстом */
+  }
 
 .footer-title {
     display: inline-block;
