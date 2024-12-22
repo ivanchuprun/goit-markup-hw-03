@@ -91,6 +91,7 @@ color: #404bbf;
 }
 
 .address-item {
+    padding: 24px 0;
 }
 
 .address-link {
@@ -281,14 +282,9 @@ button {
 }
 
 .footer-content {
-    max-width: 800px; /* Обмеження ширини для естетики */
-    margin: 0 auto; /* Центрує весь блок */
+    margin: 144px;
   }
   
-  .footer-content a, 
-  .footer-content p {
-    margin: 10px 0; /* Відступи між заголовком і текстом */
-  }
 
 .footer-title {
     display: inline-block;
