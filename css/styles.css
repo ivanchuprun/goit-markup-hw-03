@@ -259,7 +259,8 @@ button {
 
 /* Секція 4 */
 .portfolio-section {
-    padding: 40px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
     background-color: #f9f9f9;
 }
 
@@ -270,7 +271,7 @@ button {
   }
 
 .portfolio-title {
-    margin-bottom: 30px;
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -280,12 +281,14 @@ button {
     color: #2e2f42;
 }
 .portfolio-list {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 .portfolio-item {
 
