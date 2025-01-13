@@ -130,18 +130,19 @@ color: #404bbf;
     color: #fff;
 }
 
-button {
+.button {
     display: block;
-    min-width: 169px;
-    height: 56px;
-    border: none; 
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 10px;
+    justify-content: center;
+    padding: 16px 32px;
     border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    gap: 10px;
     background-color: #4d5ae5;
     cursor: pointer;
+    flex-direction: row;
+    gap: 10px;shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
 }
 
 
@@ -152,7 +153,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    background-color: #4d5ae5;
+    background-color: #404bbf;
 }
 .page-title-button:hover,
 .page-title-button:focus {
