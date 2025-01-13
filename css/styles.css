@@ -130,34 +130,23 @@ color: #404bbf;
     color: #fff;
 }
 
-.button {
-    display: block;
-    justify-content: center;
-    padding: 16px 32px;
-    border-radius: 4px;
-    width: 169px;
-    height: 56px;
-    gap: 10px;
-    background-color: #4d5ae5;
-    cursor: pointer;
-    flex-direction: row;
-    gap: 10px;shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-
-}
-
-
 .page-title-button {
+    cursor: pointer;
     margin-top: auto;
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #ffffff;
     background-color: #404bbf;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: 0;
 }
 .page-title-button:hover,
 .page-title-button:focus {
-    color: #fff;
     background-color: #404bbf;
 }
 
