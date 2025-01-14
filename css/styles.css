@@ -167,13 +167,13 @@ color: #404bbf;
 }
 
 .page-title-button {
-    font-family: inherit;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    background-color: #404bbf;
+    background-color: #4d5ae5;
     cursor: pointer;
     border-radius: 4px;
     padding: 16px 32px;
@@ -202,7 +202,8 @@ color: #404bbf;
   
 .features-list {
     display: flex;
-    gap: 24px;   
+    gap: 24px;  
+    width: calc((100% - 72px) / 4);
 }
 
 .features-item {
@@ -244,7 +245,7 @@ color: #434455;
 }
 .team-list {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 24px;
 }
 .team-member {
