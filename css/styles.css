@@ -201,13 +201,14 @@ color: #404bbf;
   }
   
 .features-list {
+    padding-right: 24px;
+    padding-left: 24px;
     display: flex;
     gap: 24px;  
-    width: calc((100% - 72px) / 4);
 }
 
 .features-item {
-    width: 264px;
+    width: calc((100% - 72px) / 4);
 }
 
 .features-title {
@@ -293,6 +294,7 @@ color: #434455;
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: ;
     column-gap: 24px;
     row-gap: 48px;
 }
