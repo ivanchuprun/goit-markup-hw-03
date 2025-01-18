@@ -4,16 +4,16 @@ background-color: #fff;
 color: #434455;
 }
 
+a {
+text-decoration: none;
+}
+
 .container {
-    max-width: 1158px;
+    max-width: 1128px + 15px + 15px;
     padding: 0 15px;
     margin: 0 auto;
 }
 
-
-a {
-text-decoration: none;
-}
 
 ul, 
 ol {
