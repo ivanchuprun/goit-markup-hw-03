@@ -255,8 +255,12 @@ color: #434455;
 }
 .team-member-photo {
     background: url("path_to_image");
+}
+
+.card-team {
     padding: 32px 0;
 }
+
 .team-member-name {
     font-weight: 500;
     font-size: 20px;
