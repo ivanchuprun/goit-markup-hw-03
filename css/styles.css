@@ -191,21 +191,35 @@ color: #404bbf;
     padding: 120px 0;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
 .visually-hidden {
     position: absolute;
-    width: 1px; height: 1px;
+    width: 1px;
+    height: 1px;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
   }
   
 .features-list {
     padding-right: 24px;
     padding-left: 24px;
     display: flex;
+    flex-wrap: wrap;
+    list-style: none;
     gap: 24px;  
 }
 
 .features-item {
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 
 .features-title {
