@@ -192,7 +192,9 @@ color: #404bbf;
 }
 
 .visually-hidden {
-    display: none;
+    position: absolute;
+    width: 1px; height: 1px;
+    overflow: hidden;
   }
   
 .features-list {
@@ -203,7 +205,7 @@ color: #404bbf;
 }
 
 .features-item {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .features-title {
