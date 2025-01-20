@@ -69,12 +69,15 @@ footer {
 }
 
 .header-page {
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .nav-page {
@@ -93,9 +96,9 @@ footer {
 }
 
 .head-logo {
-    padding: 24px 0;
-    margin: 76px;
+    margin: 72px;
 }
+  
 
 .logo-color {
     color: #2e2f42;
@@ -223,11 +226,8 @@ color: #404bbf;
 }
   
 .features-list {
-    padding-right: 24px;
-    padding-left: 24px;
     display: flex;
     flex-wrap: wrap;
-    list-style: none;
     gap: 24px;  
 }
 
@@ -326,7 +326,7 @@ color: #434455;
     row-gap: 48px;
 }
 .portfolio-item {
-    
+
 }
 .portfolio-item-photo {
     background: url("path_to_image");
