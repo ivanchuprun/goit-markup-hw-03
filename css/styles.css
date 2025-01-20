@@ -233,11 +233,10 @@ color: #404bbf;
 
 .features-item {
     width: calc((100% - 72px) / 4);
-
 }
 
 .features-title {
-    font-weight: 500;
+font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
@@ -327,7 +326,7 @@ color: #434455;
     row-gap: 48px;
 }
 .portfolio-item {
-
+    
 }
 .portfolio-item-photo {
     background: url("path_to_image");
