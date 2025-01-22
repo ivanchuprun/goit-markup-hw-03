@@ -371,14 +371,11 @@ height: 120px;
 
 .footer {
     padding: 100px 0;
-    font-family: "Raleway", sans-serif;
     background-color: #2e2f42;
 }
 
-.footer .container {
-        
+.footer .container { 
   }
-  
 
 .footer-title {
     display: inline-block;
